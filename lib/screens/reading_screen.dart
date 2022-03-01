@@ -186,14 +186,16 @@ class _ReadingScreenState extends State<ReadingScreen> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "About this Book",
-              style: appTheme().textTheme.headline1!.copyWith(fontSize: 18),
+              style: appTheme().textTheme.headline1!.copyWith(
+                    fontSize: 18,
+                  ),
             ),
           ),
           Padding(
             padding: const EdgeInsets.all(15),
             child: SelectableText(
               bookContent,
-              style: const TextStyle(fontSize: 16, color: Colors.black),
+              style: const TextStyle(fontSize: 16, color: Colors.black54),
             ),
           )
         ],

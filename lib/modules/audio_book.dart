@@ -29,7 +29,7 @@ List<AudioBook> audioBooksList = [
     bookName: "All We Have",
     bookType: "A Novel",
     bookCover: 'assets/images/all_we_have.jpg',
-    bookContent: '',
+    bookContent: aboutTheReunionBook,
     watchesNumber: 259,
     likesNumber: 41,
     listeningCompletion: 75,
@@ -112,7 +112,7 @@ List<AudioBook> audioBooksList = [
 ];
 
 String aboutTheReunionBook = '''
-From the USA Today bestselling author of The Wedding Game comes a new romantic comedy about the antics that ensue when three siblings come together for their parents' fiftieth-anniversary party.
+  From the USA Today bestselling author of The Wedding Game comes a new romantic comedy about the antics that ensue when three siblings come together for their parents' fiftieth-anniversary party.
 
 Martin and Peggy Chance believe love should last a lifetime. With their fiftieth wedding anniversary on the horizon, they've modeled a beautiful relationship for their three grown children. But to their dismay, that lesson hasn't quite caught on--the three siblings just can't seem to take a chance and find love in their own lives.
 

@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 ThemeData appTheme() {
   return ThemeData(
     colorScheme: const ColorScheme.light(
       primary: Color(0xFFd00000),
-      secondary: Color(0xFFe85d04),
+      secondary: Color.fromRGBO(232, 93, 4, 1),
     ),
+    fontFamily: GoogleFonts.arvo().fontFamily,
     textTheme: const TextTheme(
       bodyText1: TextStyle(
         fontSize: 30,
